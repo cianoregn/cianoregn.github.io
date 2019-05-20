@@ -31,10 +31,13 @@ function Bio() {
               }}
             />
             <p>
-              Thoughts of <strong>{author}</strong>
+            <strong>{author}</strong> -
+
+        Some essays and thoughts, "Restore us, and regain the blissful Seat"
+
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should NOT follow him on Twitter
+                 You should NOT follow me on Twitter
               </a>
             </p>
           </div>

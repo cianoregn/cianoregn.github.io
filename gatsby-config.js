@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cogitatio`,
+    title: `Essays`,
     author: `Cian O'Regan`,
     description: `He who kisses the joy as it flies
 Lives in eternity’s sunrise`,
@@ -58,13 +58,13 @@ Lives in eternity’s sunrise`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Cian's Essays`,
+        short_name: `Essays`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/casper.jpg`,
       },
     },
     `gatsby-plugin-offline`,
